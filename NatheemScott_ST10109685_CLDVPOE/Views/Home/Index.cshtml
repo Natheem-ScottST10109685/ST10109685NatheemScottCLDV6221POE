@@ -1,0 +1,27 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="path/to/your/custom/style.css"> <!-- Include your custom CSS file -->
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <h1>Welcome to KhumaloCraft Emporium</h1>
+            <img src="~/imgs/Weaponsmith.jpg" class="img-fluid mx-auto d-block" alt="KhumaloCraft Logo" style="max-width: 100%; height: auto;">
+            <p></p>
+            <p>Discover exquisite handcrafted treasures from artisans around the world. At KhumaloCraft, we celebrate the art of traditional craftsmanship, offering a curated collection of unique and authentic pieces.</p>
+            <p>Explore our diverse range of meticulously crafted products, from intricately woven textiles to delicately carved sculptures, and embark on a journey of cultural discovery and appreciation.</p>
+            <p>Join us in supporting sustainable practices, preserving cultural heritage, and celebrating the artistry of traditional craftsmanship.</p>
+            <p>Learn more about us <a asp-controller="Home" asp-action="About">here</a>.</p>
+        </div>
+    </div>
+</body>
+</html>
