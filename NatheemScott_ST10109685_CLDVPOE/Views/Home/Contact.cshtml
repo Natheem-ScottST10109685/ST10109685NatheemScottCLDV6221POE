@@ -1,23 +1,56 @@
-﻿
-@{
-    ViewData["Title"] = "Contact";
+﻿@{
+    Layout = null;
 }
-
-
-<h1>Contact Us</h1>
-
-<form method="post" action="/Home/Contact" class="contact-form">
-    <div class="form-group">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" class="form-control" required>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - MyWork</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="~/css/contact.css" />
+</head>
+<header>
+    <div class="nav-menu">
+        @await Html.PartialAsync("_NavigationMenu")
     </div>
-    <div class="form-group">
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" class="form-control" required>
+</header>
+<body>
+    <h1>Contact Us</h1>
+
+    <form method="post" action="/Home/Contact" class="contact-form">
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" class="form-control" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" class="form-control" required>
+        </div>
+        <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" class="form-control" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-submit">Submit</button>
+    </form>
+</body>
+<footer class="footer">
+    <div class="container">
+        <div class="social-links">
+            <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-facebook"></i>
+            </a>
+            <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://www.tiktok.com" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-tiktok"></i>
+            </a>
+        </div>
+        &copy; 2024 - KhumaloCraftApp
     </div>
-    <div class="form-group">
-        <label for="message">Message:</label>
-        <textarea id="message" name="message" class="form-control" rows="5" required></textarea>
-    </div>
-    <button type="submit" class="btn btn-primary btn-submit">Submit</button>
-</form>
+</footer>
+</html>

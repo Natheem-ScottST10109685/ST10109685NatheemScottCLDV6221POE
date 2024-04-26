@@ -1,51 +1,92 @@
 ﻿@{
-    ViewData["Title"] = "MyWork";
+    Layout = null;
 }
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - MyWork</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="~/css/mywork.css" />
+</head>
+<header>
+    <div class="nav-menu">
+        @await Html.PartialAsync("_NavigationMenu")
+    </div>
+</header>
+<body>
+    <h1>Our Handcrafted Treasures</h1>
+    <p class="exPln">Welcome to KhumaloCraft Emporium, your premier destination for exquisite handcrafted treasures from artisans across the globe. Our platform is a curated marketplace, offering a diverse range of meticulously crafted products, from intricately woven textiles to delicately carved sculptures. At KhumaloCraft, we bridge the gap between artisans and discerning enthusiasts who value authenticity and cultural significance in their purchases. Join us in supporting sustainable practices, preserving cultural heritage, and celebrating the artistry of traditional craftsmanship. Explore our collection and embark on a journey of discovery and appreciation for the world's finest artisanal creations.</p>
+    
+    <button onclick="location.href='@Url.Action("Catalogue", "Home")'">Browse Full Catalogue</button>
 
-@* https://www.knifeguy.co.za this is where I got the images from *@
-
-<h1>Our Handcrafted Treasures</h1>
-<p class="exPln">Welcome to KhumaloCraft Emporium, your premier destination for exquisite handcrafted treasures from artisans across the globe. Our platform is a curated marketplace, offering a diverse range of meticulously crafted products, from intricately woven textiles to delicately carved sculptures. At KhumaloCraft, we bridge the gap between artisans and discerning enthusiasts who value authenticity and cultural significance in their purchases. Join us in supporting sustainable practices, preserving cultural heritage, and celebrating the artistry of traditional craftsmanship. Explore our collection and embark on a journey of discovery and appreciation for the world's finest artisanal creations.</p>
-
-<div class="product-container">
-    <div class="product">
-        <img src="~/imgs/Karambits.webp" alt="TOPS Devils Claw 2">
-        <h3>TOPS Devils Claw 2</h3>
-        <p>
-            A Karambit knife is a Southeast Asian blade with a distinctive curved design resembling a tiger's claw, ideal for close-quarters combat and self-defense due to its efficient slicing motion. Featuring a finger ring on the handle for a secure grip and versatile use, it has become a popular choice among martial artists and enthusiasts for its effectiveness and unique aesthetic.
-        </p>
-        <p>Price: R2795.00</p>
+    <div class="product-container">
+        <div class="product">
+            <img src="~/imgs/Karambits.webp" alt="TOPS Devils Claw 2">
+            <h3>TOPS Devils Claw 2</h3>
+            <p>
+                A Karambit knife is a Southeast Asian blade with a distinctive curved design resembling a tiger's claw, ideal for close-quarters combat and self-defense due to its efficient slicing motion. Featuring a finger ring on the handle for a secure grip and versatile use, it has become a popular choice among martial artists and enthusiasts for its effectiveness and unique aesthetic.
+            </p>
+            <p>Price: R2795.00</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="~/imgs/Axe.webp" alt="Cold Steel War Hawk">
+            <h3>Cold Steel War Hawk</h3>
+            <p>A sharp, bladed head mounted perpendicular to a handle, typically used for chopping wood or other materials. Its design allows for powerful and controlled strikes, making it essential for tasks like forestry, woodworking, and survival situations.</p>
+            <p>Price: R1295.00</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="~/imgs/Folding Knife.webp" alt="Cold Steel Recon 1 Spear Point CS27BS">
+            <h3>Cold Steel Recon 1 Spear Point CS27BS</h3>
+            <p>A a portable cutting tool characterized by a hinged blade that can be folded into the handle when not in use, providing compactness and safety for everyday carry. Offering versatility and convenience, folding knives are popular for a wide range of tasks, from household chores to outdoor activities, and are prized for their ease of deployment and storage.</p>
+            <p>Price: R2995.00</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="~/imgs/NeckKnife.webp" alt="QSP Canary Neck Knife QS141-D2">
+            <h3>QSP Canary Neck Knife QS141-D2</h3>
+            <p>A compact and lightweight blade designed to be worn around the neck, typically suspended from a cord or chain, offering discreet and easy access for various cutting tasks. Its minimalist design and portability make it suitable for everyday carry, particularly for outdoor activities, emergency situations, or as a backup tool for self-defense.</p>
+            <p>Price: R1049.00</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="~/imgs/C23002-3_600x.webp" alt="Civivi Progugnator C23002-3">
+            <h3>Civivi Progugnator C23002-3</h3>
+            <p>
+                A robust cutting tool with a blade that extends seamlessly from the handle, providing strength and reliability for demanding tasks such as hunting, survival, and tactical use. Known for their durability and simplicity, fixed blade knives offer quick deployment and easy maintenance, making them favored by outdoor enthusiasts, military personnel, and professionals alike.
+            </p>
+            <p>Price: R2095.00</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="~/imgs/5050_600x.webp" alt="Kershaw Moonsault 5050">
+            <h3>Kershaw Moonsault 5050</h3>
+            <p>A butterfly knife, is a folding knife characterized by two handles that rotate around the blade pivot, allowing it to be opened and closed with swift, intricate maneuvers. Renowned for its unique flipping action and challenging skill to master, the Balisong is both a practical cutting tool and a captivating hobbyist's item, popular among knife enthusiasts and skilled practitioners of flipping techniques.</p>
+            <p>Price: R3649.00</p>
+            <button>Add to Cart</button>
+        </div>
     </div>
-    <div class="product">
-        <img src="~/imgs/Axe.webp" alt="Cold Steel War Hawk">
-        <h3>Cold Steel War Hawk</h3>
-        <p>A sharp, bladed head mounted perpendicular to a handle, typically used for chopping wood or other materials. Its design allows for powerful and controlled strikes, making it essential for tasks like forestry, woodworking, and survival situations.</p>
-        <p>Price: R1295.00</p>
+</body>
+<footer class="footer">
+    <div class="container">
+        <div class="social-links">
+            <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-facebook"></i>
+            </a>
+            <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://www.tiktok.com" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-tiktok"></i>
+            </a>
+        </div>
+        &copy; 2024 - KhumaloCraftApp
     </div>
-    <div class="product">
-        <img src="~/imgs/Folding Knife.webp" alt="Cold Steel Recon 1 Spear Point CS27BS">
-        <h3>Cold Steel Recon 1 Spear Point CS27BS</h3>
-        <p>A a portable cutting tool characterized by a hinged blade that can be folded into the handle when not in use, providing compactness and safety for everyday carry. Offering versatility and convenience, folding knives are popular for a wide range of tasks, from household chores to outdoor activities, and are prized for their ease of deployment and storage.</p>
-        <p>Price: R2995.00</p>
-    </div>
-    <div class="product">
-        <img src="~/imgs/NeckKnife.webp" alt="QSP Canary Neck Knife QS141-D2">
-        <h3>QSP Canary Neck Knife QS141-D2</h3>
-        <p>A compact and lightweight blade designed to be worn around the neck, typically suspended from a cord or chain, offering discreet and easy access for various cutting tasks. Its minimalist design and portability make it suitable for everyday carry, particularly for outdoor activities, emergency situations, or as a backup tool for self-defense.</p>
-        <p>Price: R1049.00</p>
-    </div>
-    <div class="product">
-        <img src="~/imgs/C23002-3_600x.webp" alt="Civivi Progugnator C23002-3">
-        <h3>Civivi Progugnator C23002-3</h3>
-        <p>
-            A robust cutting tool with a blade that extends seamlessly from the handle, providing strength and reliability for demanding tasks such as hunting, survival, and tactical use. Known for their durability and simplicity, fixed blade knives offer quick deployment and easy maintenance, making them favored by outdoor enthusiasts, military personnel, and professionals alike.
-        </p>
-        <p>Price: R2095.00</p>
-    </div>
-    <div class="product">
-        <img src="~/imgs/5050_600x.webp" alt="Kershaw Moonsault 5050">
-        <h3>Kershaw Moonsault 5050</h3>
-        <p>A butterfly knife, is a folding knife characterized by two handles that rotate around the blade pivot, allowing it to be opened and closed with swift, intricate maneuvers. Renowned for its unique flipping action and challenging skill to master, the Balisong is both a practical cutting tool and a captivating hobbyist's item, popular among knife enthusiasts and skilled practitioners of flipping techniques.</p>
-        <p>Price: R3649.00</p>
-    </div>
-</div>
+</footer>
+</html>

@@ -1,5 +1,6 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    Layout = null;
+
 }
 
 <!DOCTYPE html>
@@ -9,8 +10,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"]</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="path/to/your/custom/style.css"> <!-- Include your custom CSS file -->
+    <link rel="stylesheet" href="path/to/your/custom/style.css">
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="~/css/main.css" />
 </head>
+<header>
+    <div class="nav-menu">
+        @await Html.PartialAsync("_NavigationMenu")
+    </div>
+</header>
 <body>
     <div class="container">
         <div class="jumbotron">

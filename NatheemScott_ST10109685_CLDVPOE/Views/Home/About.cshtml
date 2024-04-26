@@ -1,26 +1,61 @@
 ﻿@{
-    ViewData["Title"] = "About Us";
+    Layout = null;
 }
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - MyWork</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="~/css/About.css" />
+</head>
+<header>
+    <div class="nav-menu">
+        @await Html.PartialAsync("_NavigationMenu")
+    </div>
+</header>
+<body>
+    <h1>About KhumaloCraft Emporium</h1>
 
-<h1>About KhumaloCraft Emporium</h1>
+    <div class="about-section">
+        <h2>Our Story</h2>
+        <p>KhumaloCraft Emporium was established in 2020 with a mission to honor the timeless art of weaponsmithing and preserve the legacy of traditional craftsmanship. We are dedicated to showcasing the skill and creativity of artisans worldwide, each piece crafted with precision and passion.</p>
+        <p>At KhumaloCraft, we believe in the beauty of handcrafted weaponry, where every blade tells a story and embodies the heritage of its maker's craftsmanship.</p>
+    </div>
 
-<div class="about-section">
-    <h2>Our Story</h2>
-    <p>KhumaloCraft Emporium was established in 2020 with a mission to honor the timeless art of weaponsmithing and preserve the legacy of traditional craftsmanship. We are dedicated to showcasing the skill and creativity of artisans worldwide, each piece crafted with precision and passion.</p>
-    <p>At KhumaloCraft, we believe in the beauty of handcrafted weaponry, where every blade tells a story and embodies the heritage of its maker's craftsmanship.</p>
-</div>
+    <div class="about-section">
+        <h2>Our Mission</h2>
+        <p>Our mission is to bridge the gap between weaponsmiths and enthusiasts, fostering a deeper appreciation for the art of crafting edged weapons. We strive to create a sustainable marketplace that empowers weaponsmiths, preserves cultural heritage, and promotes ethical and environmentally conscious practices in the realm of weapons crafting.</p>
+    </div>
 
-<div class="about-section">
-    <h2>Our Mission</h2>
-    <p>Our mission is to bridge the gap between weaponsmiths and enthusiasts, fostering a deeper appreciation for the art of crafting edged weapons. We strive to create a sustainable marketplace that empowers weaponsmiths, preserves cultural heritage, and promotes ethical and environmentally conscious practices in the realm of weapons crafting.</p>
-</div>
-
-<div class="about-section">
-    <h2>Our Values</h2>
-    <ul>
-        <li>Authenticity: We celebrate the authentic craftsmanship and cultural significance embedded in every blade forged by skilled weaponsmiths.</li>
-        <li>Sustainability: We prioritize eco-friendly and socially responsible practices in the production and distribution of handcrafted weapons.</li>
-        <li>Inclusivity: We embrace diversity and promote the representation of weaponsmiths from diverse backgrounds and traditions.</li>
-        <li>Craftsmanship: We honor the dedication, expertise, and artistry of weaponsmiths who meticulously create each unique weapon with passion and skill.</li>
-    </ul>
-</div>
+    <div class="about-section">
+        <h2>Our Values</h2>
+        <ul>
+            <li>Authenticity: We celebrate the authentic craftsmanship and cultural significance embedded in every blade forged by skilled weaponsmiths.</li>
+            <li>Sustainability: We prioritize eco-friendly and socially responsible practices in the production and distribution of handcrafted weapons.</li>
+            <li>Inclusivity: We embrace diversity and promote the representation of weaponsmiths from diverse backgrounds and traditions.</li>
+            <li>Craftsmanship: We honor the dedication, expertise, and artistry of weaponsmiths who meticulously create each unique weapon with passion and skill.</li>
+        </ul>
+    </div>
+</body>
+<footer class="footer">
+    <div class="container">
+        <div class="social-links">
+            <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-facebook"></i>
+            </a>
+            <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://www.tiktok.com" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-tiktok"></i>
+            </a>
+        </div>
+        &copy; 2024 - KhumaloCraftApp
+    </div>
+</footer>
+</html>

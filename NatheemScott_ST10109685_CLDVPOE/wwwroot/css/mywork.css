@@ -1,0 +1,166 @@
+﻿/* mywork.css */
+
+/* General Styles */
+
+body {
+    background-color: #1a1a1a;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #ff6600;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+p.exPln {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #cccccc;
+}
+
+button {
+    background-color: #ff6600;
+    color: #ffffff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease;
+}
+
+    button:hover {
+        background-color: #d2691e;
+    }
+
+/* Product Container Styles */
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.product {
+    width: 300px;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: #1a1a1a;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(255, 102, 0, 0.3);
+    text-align: center;
+    overflow: hidden;
+}
+
+    .product img {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 1rem;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(255, 102, 0, 0.3);
+    }
+
+    .product h3 {
+        font-size: 1.4rem;
+        margin-bottom: 0.8rem;
+        color: #ff6600;
+        font-family: 'Roboto', sans-serif;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    }
+
+    .product p {
+        font-size: 1.1rem;
+        line-height: 1.6;
+        margin-bottom: 1rem;
+        color: #cccccc;
+        font-family: 'Roboto', sans-serif;
+    }
+
+        .product p.price {
+            font-size: 1.1rem;
+            margin-top: 0.5rem;
+            color: #ff6600;
+            font-family: 'Roboto', sans-serif;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+        }
+
+.product-button {
+    background-color: #ff6600;
+    color: #ffffff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease;
+}
+
+    .product-button:hover {
+        background-color: #d2691e;
+    }
+
+
+/* Navbar Styles */
+/*-----------------------------------*/
+.nav-menu .container {
+    max-width: 1050px;
+    width: 90%;
+    margin: auto;
+    flex: 1; /* This will make the container grow to fill the remaining vertical space */
+}
+
+.nav-menu .navbar {
+    width: 100%;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+    background-color: #1a1a1a;
+}
+
+.nav-menu .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+}
+
+.nav-menu .navbar .menu-items {
+    display: flex;
+}
+
+.nav-menu .navbar .nav-container li {
+    list-style: none;
+}
+
+.nav-menu .navbar .nav-container a {
+    text-decoration: none;
+    color: #cccccc;
+    font-weight: 500;
+    font-size: 1.2rem;
+    padding: 0.7rem;
+}
+
+    .nav-menu .navbar .nav-container a:hover {
+        font-weight: bolder;
+        color: #ff6600;
+    }
+
+.nav-menu .nav-container {
+    display: block;
+    position: relative;
+    height: 60px;
+}
+/*Footer*/
+.footer {
+    margin-top: auto; /* This will push the footer to the bottom */
+    background-color: #1a1a1a;
+    color: #cccccc;
+    padding: 10px;
+    box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
