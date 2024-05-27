@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Add to Cart</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="~/css/mywork.css" />
+    <script>
+        function addToCart(event) {
+            event.preventDefault(); // Prevent the form from submitting normally
+
+            // Get the form values
+            const productName = document.getElementById('product-name').value;
+            const productPrice = document.getElementById('product-price').value;
+            const productCategory = document.getElementById('product-category').value;
+            const productAvailability = document.getElementById('product-availability').value;
+
+            // Create a new product div
+            const productDiv = document.createElement('div');
+            productDiv.classList.add('product');
+
+            // Add product details to the div
+            productDiv.innerHTML = `
+                        <h3>${productName}</h3>
+                        <p>Price: ${productPrice}</p>
+                        <p>Category: ${productCategory}</p>
+                        <p>Availability: ${productAvailability}</p>
+                        <button class="remove-button" onclick="removeProduct(this.parentNode)">Remove</button>
+                    `;
+
+            // Append the product div to the container
+            const container = document.getElementById('product-container');
+            container.appendChild(productDiv);
+
+            // Show the "Purchase" button
+            const purchaseButton = document.getElementById('purchase-button');
+            purchaseButton.style.display = 'block';
+
+            // Reset the form
+            document.getElementById('product-form').reset();
+        }
+
+        function removeProduct(product) {
+            const container = document.getElementById('product-container');
+            container.removeChild(product);
+
+            // Hide the "Purchase" button if there are no products
+            const products = container.getElementsByClassName('product');
+            if (products.length === 0) {
+                const purchaseButton = document.getElementById('purchase-button');
+                purchaseButton.style.display = 'none';
+            }
+        }
+
+        function purchaseProducts() {
+            alert('Purchase successful!');
+        }
+    </script>
+</head>
+<body>
+    <h1>Add to Cart</h1>
+    <form id="product-form">
+        <div class="form-group">
+            <label for="product-name">Product Name</label>
+            <input type="text" id="product-name" name="product-name" required>
+        </div>
+        <div class="form-group">
+            <label for="product-price">Price</label>
+            <input type="text" id="product-price" name="product-price" required>
+        </div>
+        <div class="form-group">
+            <label for="product-category">Category</label>
+            <input type="text" id="product-category" name="product-category" required>
+        </div>
+        <div class="form-group">
+            <label for="product-availability">Availability</label>
+            <input type="text" id="product-availability" name="product-availability" required>
+        </div>
+        <button type="submit" class="product-button" onclick="addToCart(event)">Add to Cart</button>
+    </form>
+    <div id="product-container"></div>
+    <button id="purchase-button" style="display: none;" onclick="purchaseProducts()">Purchase</button>
+</body>
+</html>

@@ -5,6 +5,34 @@
       "PackagePath": "staticwebassets\\NatheemScott_ST10109685_CLDVPOE.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\Natheem Scott\\Desktop\\NatheemScott_ST10109685_CLDVPOE\\wwwroot\\css\\About.css",
+      "PackagePath": "staticwebassets\\css\\About.css"
+    },
+    {
+      "Id": "C:\\Users\\Natheem Scott\\Desktop\\NatheemScott_ST10109685_CLDVPOE\\wwwroot\\css\\contact.css",
+      "PackagePath": "staticwebassets\\css\\contact.css"
+    },
+    {
+      "Id": "C:\\Users\\Natheem Scott\\Desktop\\NatheemScott_ST10109685_CLDVPOE\\wwwroot\\css\\login.css",
+      "PackagePath": "staticwebassets\\css\\login.css"
+    },
+    {
+      "Id": "C:\\Users\\Natheem Scott\\Desktop\\NatheemScott_ST10109685_CLDVPOE\\wwwroot\\css\\main.css",
+      "PackagePath": "staticwebassets\\css\\main.css"
+    },
+    {
+      "Id": "C:\\Users\\Natheem Scott\\Desktop\\NatheemScott_ST10109685_CLDVPOE\\wwwroot\\css\\mywork.css",
+      "PackagePath": "staticwebassets\\css\\mywork.css"
+    },
+    {
+      "Id": "C:\\Users\\Natheem Scott\\Desktop\\NatheemScott_ST10109685_CLDVPOE\\wwwroot\\css\\privacy.css",
+      "PackagePath": "staticwebassets\\css\\privacy.css"
+    },
+    {
+      "Id": "C:\\Users\\Natheem Scott\\Desktop\\NatheemScott_ST10109685_CLDVPOE\\wwwroot\\css\\register.css",
+      "PackagePath": "staticwebassets\\css\\register.css"
+    },
+    {
       "Id": "C:\\Users\\Natheem Scott\\Desktop\\NatheemScott_ST10109685_CLDVPOE\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -39,6 +67,10 @@
     {
       "Id": "C:\\Users\\Natheem Scott\\Desktop\\NatheemScott_ST10109685_CLDVPOE\\wwwroot\\imgs\\Weaponsmith.jpg",
       "PackagePath": "staticwebassets\\imgs\\Weaponsmith.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Natheem Scott\\Desktop\\NatheemScott_ST10109685_CLDVPOE\\wwwroot\\imgs\\greekgod.jpg",
+      "PackagePath": "staticwebassets\\imgs\\greekgod.jpg"
     },
     {
       "Id": "C:\\Users\\Natheem Scott\\Desktop\\NatheemScott_ST10109685_CLDVPOE\\wwwroot\\js\\site.js",

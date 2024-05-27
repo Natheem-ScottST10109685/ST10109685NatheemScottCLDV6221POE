@@ -43,7 +43,7 @@ namespace NatheemScott_ST10109685_CLDVPOE.Controllers
             return View();
         }
 
-        public IActionResult Catalogue()
+        public IActionResult AddtoCart()
         {
             return View();
         }

@@ -27,7 +27,6 @@ namespace NatheemScott_ST10109685_CLDVPOE.Models
             con.Open();
             int rowsAffected = cmd.ExecuteNonQuery();
             con.Close();
-
             return rowsAffected;
         }
 

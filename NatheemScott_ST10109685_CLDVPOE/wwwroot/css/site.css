@@ -32,6 +32,10 @@ body {
     flex-direction: column;
 }
 
+label {
+    color: #cccccc;
+}
+
 .footer {
     margin-top: auto; /* This will push the footer to the bottom */
     background-color: beige;

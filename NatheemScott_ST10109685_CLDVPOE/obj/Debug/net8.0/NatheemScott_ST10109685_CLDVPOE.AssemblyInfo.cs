@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NatheemScott_ST10109685_CLDVPOE")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f5cac51b8014baaa9191ace28b229896297063e5")]
 [assembly: System.Reflection.AssemblyProductAttribute("NatheemScott_ST10109685_CLDVPOE")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NatheemScott_ST10109685_CLDVPOE")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

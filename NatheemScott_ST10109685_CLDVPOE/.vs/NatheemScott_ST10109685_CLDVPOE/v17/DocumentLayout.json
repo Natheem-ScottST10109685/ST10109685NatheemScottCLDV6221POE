@@ -3,32 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Natheem Scott\\Desktop\\NatheemScott_ST10109685_CLDVPOE\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BB66C34D-8FFA-4823-8F3B-439B5544D11B}|NatheemScott_ST10109685_CLDVPOE.csproj|c:\\users\\natheem scott\\desktop\\natheemscott_st10109685_cldvpoe\\views\\home\\catalogue.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BB66C34D-8FFA-4823-8F3B-439B5544D11B}|NatheemScott_ST10109685_CLDVPOE.csproj|solutionrelative:views\\home\\catalogue.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{BB66C34D-8FFA-4823-8F3B-439B5544D11B}|NatheemScott_ST10109685_CLDVPOE.csproj|c:\\users\\natheem scott\\desktop\\natheemscott_st10109685_cldvpoe\\views\\home\\addtocart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BB66C34D-8FFA-4823-8F3B-439B5544D11B}|NatheemScott_ST10109685_CLDVPOE.csproj|solutionrelative:views\\home\\addtocart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB66C34D-8FFA-4823-8F3B-439B5544D11B}|NatheemScott_ST10109685_CLDVPOE.csproj|c:\\users\\natheem scott\\desktop\\natheemscott_st10109685_cldvpoe\\models\\usertbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB66C34D-8FFA-4823-8F3B-439B5544D11B}|NatheemScott_ST10109685_CLDVPOE.csproj|solutionrelative:models\\usertbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB66C34D-8FFA-4823-8F3B-439B5544D11B}|NatheemScott_ST10109685_CLDVPOE.csproj|c:\\users\\natheem scott\\desktop\\natheemscott_st10109685_cldvpoe\\models\\userproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB66C34D-8FFA-4823-8F3B-439B5544D11B}|NatheemScott_ST10109685_CLDVPOE.csproj|solutionrelative:models\\userproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BB66C34D-8FFA-4823-8F3B-439B5544D11B}|NatheemScott_ST10109685_CLDVPOE.csproj|c:\\users\\natheem scott\\desktop\\natheemscott_st10109685_cldvpoe\\views\\home\\mywork.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{BB66C34D-8FFA-4823-8F3B-439B5544D11B}|NatheemScott_ST10109685_CLDVPOE.csproj|solutionrelative:views\\home\\mywork.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BB66C34D-8FFA-4823-8F3B-439B5544D11B}|NatheemScott_ST10109685_CLDVPOE.csproj|c:\\users\\natheem scott\\desktop\\natheemscott_st10109685_cldvpoe\\wwwroot\\css\\mywork.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{BB66C34D-8FFA-4823-8F3B-439B5544D11B}|NatheemScott_ST10109685_CLDVPOE.csproj|solutionrelative:wwwroot\\css\\mywork.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BB66C34D-8FFA-4823-8F3B-439B5544D11B}|NatheemScott_ST10109685_CLDVPOE.csproj|c:\\users\\natheem scott\\desktop\\natheemscott_st10109685_cldvpoe\\views\\shared\\_navigationmenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BB66C34D-8FFA-4823-8F3B-439B5544D11B}|NatheemScott_ST10109685_CLDVPOE.csproj|solutionrelative:views\\shared\\_navigationmenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BB66C34D-8FFA-4823-8F3B-439B5544D11B}|NatheemScott_ST10109685_CLDVPOE.csproj|c:\\users\\natheem scott\\desktop\\natheemscott_st10109685_cldvpoe\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BB66C34D-8FFA-4823-8F3B-439B5544D11B}|NatheemScott_ST10109685_CLDVPOE.csproj|solutionrelative:views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BB66C34D-8FFA-4823-8F3B-439B5544D11B}|NatheemScott_ST10109685_CLDVPOE.csproj|c:\\users\\natheem scott\\desktop\\natheemscott_st10109685_cldvpoe\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB66C34D-8FFA-4823-8F3B-439B5544D11B}|NatheemScott_ST10109685_CLDVPOE.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BB66C34D-8FFA-4823-8F3B-439B5544D11B}|NatheemScott_ST10109685_CLDVPOE.csproj|c:\\users\\natheem scott\\desktop\\natheemscott_st10109685_cldvpoe\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB66C34D-8FFA-4823-8F3B-439B5544D11B}|NatheemScott_ST10109685_CLDVPOE.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,88 +38,57 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "mywork.css",
-              "DocumentMoniker": "C:\\Users\\Natheem Scott\\Desktop\\NatheemScott_ST10109685_CLDVPOE\\wwwroot\\css\\mywork.css",
-              "RelativeDocumentMoniker": "wwwroot\\css\\mywork.css",
-              "ToolTip": "C:\\Users\\Natheem Scott\\Desktop\\NatheemScott_ST10109685_CLDVPOE\\wwwroot\\css\\mywork.css",
-              "RelativeToolTip": "wwwroot\\css\\mywork.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-04-24T13:32:00.695Z"
+              "DocumentIndex": 0,
+              "Title": "AddtoCart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Natheem Scott\\Desktop\\NatheemScott_ST10109685_CLDVPOE\\Views\\Home\\AddtoCart.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\AddtoCart.cshtml",
+              "ToolTip": "C:\\Users\\Natheem Scott\\Desktop\\NatheemScott_ST10109685_CLDVPOE\\Views\\Home\\AddtoCart.cshtml",
+              "RelativeToolTip": "Views\\Home\\AddtoCart.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAFEAAABmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-27T11:27:11.781Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "MyWork.cshtml",
               "DocumentMoniker": "C:\\Users\\Natheem Scott\\Desktop\\NatheemScott_ST10109685_CLDVPOE\\Views\\Home\\MyWork.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\MyWork.cshtml",
               "ToolTip": "C:\\Users\\Natheem Scott\\Desktop\\NatheemScott_ST10109685_CLDVPOE\\Views\\Home\\MyWork.cshtml",
               "RelativeToolTip": "Views\\Home\\MyWork.cshtml",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAACgAAAAdAAAA",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAAAgAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-24T13:29:39.176Z"
+              "WhenOpened": "2024-05-27T11:26:52.259Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "_NavigationMenu.cshtml",
-              "DocumentMoniker": "C:\\Users\\Natheem Scott\\Desktop\\NatheemScott_ST10109685_CLDVPOE\\Views\\Shared\\_NavigationMenu.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_NavigationMenu.cshtml",
-              "ToolTip": "C:\\Users\\Natheem Scott\\Desktop\\NatheemScott_ST10109685_CLDVPOE\\Views\\Shared\\_NavigationMenu.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_NavigationMenu.cshtml",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA8AAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-24T13:29:10.422Z"
+              "DocumentIndex": 2,
+              "Title": "userProduct.cs",
+              "DocumentMoniker": "C:\\Users\\Natheem Scott\\Desktop\\NatheemScott_ST10109685_CLDVPOE\\Models\\userProduct.cs",
+              "RelativeDocumentMoniker": "Models\\userProduct.cs",
+              "ToolTip": "C:\\Users\\Natheem Scott\\Desktop\\NatheemScott_ST10109685_CLDVPOE\\Models\\userProduct.cs",
+              "RelativeToolTip": "Models\\userProduct.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAxwCAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T11:26:30.378Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "About.cshtml",
-              "DocumentMoniker": "C:\\Users\\Natheem Scott\\Desktop\\NatheemScott_ST10109685_CLDVPOE\\Views\\Home\\About.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\About.cshtml",
-              "ToolTip": "C:\\Users\\Natheem Scott\\Desktop\\NatheemScott_ST10109685_CLDVPOE\\Views\\Home\\About.cshtml",
-              "RelativeToolTip": "Views\\Home\\About.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-24T13:28:58.942Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Catalogue.cshtml",
-              "DocumentMoniker": "C:\\Users\\Natheem Scott\\Desktop\\NatheemScott_ST10109685_CLDVPOE\\Views\\Home\\Catalogue.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Catalogue.cshtml",
-              "ToolTip": "C:\\Users\\Natheem Scott\\Desktop\\NatheemScott_ST10109685_CLDVPOE\\Views\\Home\\Catalogue.cshtml",
-              "RelativeToolTip": "Views\\Home\\Catalogue.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-24T13:26:53.347Z",
+              "DocumentIndex": 1,
+              "Title": "userTbl.cs",
+              "DocumentMoniker": "C:\\Users\\Natheem Scott\\Desktop\\NatheemScott_ST10109685_CLDVPOE\\Models\\userTbl.cs",
+              "RelativeDocumentMoniker": "Models\\userTbl.cs",
+              "ToolTip": "C:\\Users\\Natheem Scott\\Desktop\\NatheemScott_ST10109685_CLDVPOE\\Models\\userTbl.cs",
+              "RelativeToolTip": "Models\\userTbl.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAUwBwAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T11:14:16.409Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Natheem Scott\\Desktop\\NatheemScott_ST10109685_CLDVPOE\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Natheem Scott\\Desktop\\NatheemScott_ST10109685_CLDVPOE\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAAowC0AAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T13:25:43.979Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\Natheem Scott\\Desktop\\NatheemScott_ST10109685_CLDVPOE\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\Natheem Scott\\Desktop\\NatheemScott_ST10109685_CLDVPOE\\Controllers\\UserController.cs",
-              "RelativeToolTip": "Controllers\\UserController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T11:04:38.829Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }

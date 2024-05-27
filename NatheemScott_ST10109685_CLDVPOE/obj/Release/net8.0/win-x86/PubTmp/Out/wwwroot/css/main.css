@@ -1,0 +1,73 @@
+﻿/* Custom Styles for Index.cshtml */
+
+/* General Styles */
+body {
+    background-color: #1a1a1a; /* Same as in about.css */
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #ff6600; /* Same as in about.css */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Same as in about.css */
+}
+
+.container .jumbotron {
+    background-color: #1a1a1a; /* Background color of jumbotron */
+    color: #cccccc; /* Text color of jumbotron */
+    padding: 2rem; /* Padding for jumbotron */
+}
+
+    .container .jumbotron h1 {
+        text-align: center;
+        color: #ff6600; /* Same as in about.css */
+        margin-bottom: 1rem; /* Adjust spacing */
+    }
+
+    .container .jumbotron p {
+        font-size: 1.1rem;
+        line-height: 1.6;
+        margin-bottom: 1rem;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .container .jumbotron a {
+        color: #ff6600; /* Link color */
+    }
+
+        .container .jumbotron a:hover {
+            color: #ff6600; /* Hover color */
+        }
+
+/* Navbar Styles */
+.nav-menu .navbar {
+    background-color: #1a1a1a; /* Same as in about.css */
+}
+
+    .nav-menu .navbar .menu-items {
+        display: flex;
+        justify-content: center; /* Adjust alignment */
+    }
+
+    .nav-menu .navbar .nav-container a {
+        text-decoration: none;
+        color: #cccccc; /* Same as in about.css */
+        font-weight: 500;
+        font-size: 1.2rem;
+        padding: 0.7rem;
+    }
+
+        .nav-menu .navbar .nav-container a:hover {
+            color: #ff6600; /* Hover color */
+        }
+
+/* Footer */
+.footer {
+    background-color: #1a1a1a; /* Same as in about.css */
+    color: #cccccc; /* Same as in about.css */
+    padding: 10px;
+    text-align: center;
+    position: absolute; /* Stick to the bottom */
+    width: 100%;
+    bottom: 0;
+}

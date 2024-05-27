@@ -1,0 +1,83 @@
+﻿/* contact.css */
+
+/* General Styles */
+body {
+    background-color: #1a1a1a;
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #ff6600; 
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+p {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #cccccc; 
+}
+
+.contact-form {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+    .contact-form .form-group {
+        margin-bottom: 1rem;
+        width: 80%;
+    }
+
+    .contact-form label {
+        font-family: 'Roboto', sans-serif;
+        color: #ff6600;
+    }
+
+    .contact-form input[type="text"],
+    .contact-form input[type="email"],
+    .contact-form textarea {
+        width: 100%;
+        padding: 0.5rem;
+        border: 1px solid #cccccc;
+        border-radius: 5px;
+        background-color: #333333;
+        color: #cccccc;
+        font-family: 'Roboto', sans-serif;
+        margin-top: 0.5rem;
+    }
+
+    .contact-form textarea {
+        resize: vertical;
+    }
+
+    .contact-form .btn-submit {
+        background-color: #ff6600;
+        color: #ffffff;
+        border: none;
+        padding: 0.5rem 1rem;
+        border-radius: 5px;
+        cursor: pointer;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1rem;
+        margin-top: 0.5rem;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+        transition: background-color 0.3s ease;
+    }
+
+        .contact-form .btn-submit:hover {
+            background-color: #d2691e;
+        }
+
+/*Footer*/
+.footer {
+    margin-top: auto; /* This will push the footer to the bottom */
+    background-color: #1a1a1a;
+    color: #cccccc;
+    padding: 10px;
+    box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}

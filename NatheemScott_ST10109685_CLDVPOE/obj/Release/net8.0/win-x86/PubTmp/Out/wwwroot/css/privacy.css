@@ -1,0 +1,75 @@
+﻿/* Custom Styles for Privacy.cshtml */
+
+/* General Styles */
+body {
+    background-color: #1a1a1a; /* Same as in about.css */
+    color: #cccccc; /* Text color */
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3 {
+    color: #ff6600; /* Same as in about.css */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Same as in about.css */
+}
+
+.container {
+    padding: 20px; /* Adjust padding */
+}
+
+.privacy-section {
+    margin-bottom: 30px; /* Adjust spacing between sections */
+}
+
+    .privacy-section h2 {
+        color: #ff6600;
+        font-size: 1.5rem; /* Same as in about.css */
+        margin-bottom: 10px; /* Adjust spacing */
+    }
+
+    .privacy-section p {
+        color: #cccccc;
+        font-size: 1.1rem;
+        line-height: 1.6;
+        margin-bottom: 15px; /* Adjust spacing */
+    }
+
+    .privacy-section ul {
+        list-style-type: disc;
+        margin-left: 20px;
+    }
+
+        .privacy-section ul li {
+            margin-bottom: 5px; /* Adjust spacing */
+        }
+
+/* Navbar Styles */
+.nav-menu .navbar {
+    background-color: #1a1a1a; /* Same as in about.css */
+}
+
+    .nav-menu .navbar .menu-items {
+        display: flex;
+        justify-content: center; /* Adjust alignment */
+    }
+
+    .nav-menu .navbar .nav-container a {
+        text-decoration: none;
+        color: #cccccc; /* Same as in about.css */
+        font-weight: 500;
+        font-size: 1.2rem;
+        padding: 0.7rem;
+    }
+
+        .nav-menu .navbar .nav-container a:hover {
+            color: #ff6600; /* Hover color */
+        }
+
+/*Footer*/
+.footer {
+    margin-top: auto; /* This will push the footer to the bottom */
+    background-color: #1a1a1a;
+    color: #cccccc;
+    padding: 10px;
+    box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}

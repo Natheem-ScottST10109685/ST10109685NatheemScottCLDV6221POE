@@ -1,0 +1,134 @@
+﻿/* About.css */
+
+/* General Styles */
+body {
+    background-color: #1a1a1a;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #ff6600;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.about-section {
+    margin-bottom: 2rem;
+}
+
+    .about-section h1 {
+        color: #ff6600;
+        text-align: center;
+    }
+
+    .about-section h2 {
+        color: #ff6600;
+    }
+    .about-section h3 {
+        font-size: 1.4rem;
+        margin-bottom: 0.8rem;
+        color: #ff6600;
+        font-family: 'Roboto', sans-serif;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    }
+
+    .about-section p {
+        font-size: 1.1rem;
+        line-height: 1.6;
+        margin-bottom: 1rem;
+        color: #cccccc;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .about-section ul,
+    .about-section ol {
+        color: #cccccc; 
+    }
+
+    .about-section li {
+        color: #cccccc; 
+    }
+
+    
+    .about-section h2 {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+        font-weight: bold;
+        color: #ff6600; 
+        font-family: 'Poppins', sans-serif;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+        padding-bottom: 0.5rem;
+        border-bottom: 2px solid #ff6600; 
+    }
+
+    .about-section ul {
+        list-style-type: disc;
+        margin-left: 2rem;
+        color: #cccccc; 
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .about-section li {
+        margin-bottom: 0.5rem;
+        color: #cccccc; 
+        font-family: 'Poppins', sans-serif;
+    }
+
+/* Navbar Styles */
+/*-----------------------------------*/
+.nav-menu .container {
+    max-width: 1050px;
+    width: 90%;
+    margin: auto;
+    flex: 1; /* This will make the container grow to fill the remaining vertical space */
+}
+
+.nav-menu .navbar {
+    width: 100%;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+    background-color: #1a1a1a; 
+}
+
+.nav-menu .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+}
+
+.nav-menu .navbar .menu-items {
+    display: flex;
+}
+
+.nav-menu .navbar .nav-container li {
+    list-style: none;
+}
+
+.nav-menu .navbar .nav-container a {
+    text-decoration: none;
+    color: #cccccc; 
+    font-weight: 500;
+    font-size: 1.2rem;
+    padding: 0.7rem;
+}
+
+    .nav-menu .navbar .nav-container a:hover {
+        font-weight: bolder;
+        color: #ff6600; 
+    }
+
+.nav-menu .nav-container {
+    display: block;
+    position: relative;
+    height: 60px;
+}
+
+/*Footer*/
+.footer {
+    margin-top: auto; /* This will push the footer to the bottom */
+    background-color: #1a1a1a;
+    color: #cccccc;
+    padding: 10px;
+    box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
